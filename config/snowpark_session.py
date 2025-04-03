@@ -14,13 +14,14 @@ def snowpark_session_create():
         "user": SNOWFLAKE_USER,
         "password": SNOWFLAKE_PASSWORD,
         "role": SNOWFLAKE_ROLE,
-        "warehouse": SNOWFLAKE_WAREHOUSE
+        "warehouse": SNOWFLAKE_WAREHOUSE,
+        "ocsp_fail_open": False
     }
 
     session = Session.builder.configs(connection_params).create()
 
-    logging.info(f"Connected to Snowflake. ")
+    logging.info(f"Connected to Snowflake.")
 
     return session
 
-snowpark_session_create()
+#snowpark_session_create()
