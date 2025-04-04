@@ -32,5 +32,4 @@ def load_and_save_table(session, stage_path: str, table_name: str, schema: Struc
     logging.info(f"Table '{table_name}' successfully created in Snowflake.")
 
 
-
 load_and_save_table(session, "@airlines_raw_stage/air_cia/", "air_cia", schema_air_cia)
