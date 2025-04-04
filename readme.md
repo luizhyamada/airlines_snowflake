@@ -1,4 +1,4 @@
-# ✈️ BigData Airlines
+# BigData Airlines
 
 This project focuses on processing and analyzing Brazilian air traffic data using public datasets and APIs. The steps include data normalization, enrichment via an external API, and creation of insightful views using SQL.
 
