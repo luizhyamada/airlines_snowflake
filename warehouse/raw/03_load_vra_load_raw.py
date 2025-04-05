@@ -1,6 +1,5 @@
 import logging
 from config.snowpark_session import snowpark_session_create
-from snowflake.snowpark.types import StructType, StructField, StringType
 from config.logging_config import setup_logging
 
 setup_logging()
