@@ -14,8 +14,8 @@ df = session.sql(f"""
         col1:"iata"::STRING         AS iata,
         col1:"name"::STRING         AS name,
         col1:"location"::STRING     AS location,
-        col1:"latitude"::STRING      AS latitude,
-        col1:"longitude"::STRING     AS longitude,
+        col1:"latitude"::STRING     AS latitude,
+        col1:"longitude"::STRING    AS longitude,
         col1:"country"::STRING      AS country,
         col1:"city"::STRING         AS city,
         col1:"state"::STRING        AS state
